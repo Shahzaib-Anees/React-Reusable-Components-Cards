@@ -28,7 +28,7 @@ function Card({ imageSrc, title, description, prices }) {
   return (
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure>
-        <img className="w-full h-[230px]" src={imageSrc} alt="Shoes" />
+        <img className="w-[fit-content] h-[230px]" src={imageSrc} alt="Shoes" />
       </figure>
       <div className="card-body gap-[10px]">
         <h2 className="card-title">{title}</h2>
